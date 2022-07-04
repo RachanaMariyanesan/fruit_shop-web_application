@@ -8,7 +8,7 @@ if(isset($_GET['fid'])){
     if($result==TRUE){
         echo "Record deleted successfully.";
  ?>       
-        <a href="index.php">Home</a>
+        <a href="home.php">Home</a>
         <?php
     }
     else{
